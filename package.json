@@ -17,6 +17,16 @@
   },
   "homepage": "https://github.com/sudhakar5891/app-ip_address#readme",
   "dependencies": {
-    "ip-cidr": "^2.0.12"
-  }
+    "ip-cidr": "^2.0.13"
+  },
+  "keywords": [
+    "An",
+    "IAP",
+    "product",
+    "serving",
+    "IP",
+    "address",
+    "management",
+    "functions."
+  ]
 }
