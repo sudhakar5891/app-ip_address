@@ -14,7 +14,7 @@ const path = require('path');
  * to unequivocally locate the file module.
  */
 const { getIpv4MappedIpv6Address } = require(path.join(__dirname, 'ipv6.js'));
-
+module.exports.getIpv4MappedIpv6Address = getIpv4MappedIpv6Address;
 /**
  * Calculates an IPv4-mapped IPv6 address.
  * @param {string} ipv4 - An IPv4 address in dotted-quad format.
@@ -63,4 +63,3 @@ function getIpv4MappedIpv6Address(ipv4) {
   }
   return ipv6Address;
 }
-module.exports.getIpv4MappedIpv6Address = getIpv4MappedIpv6Address;
